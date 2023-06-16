@@ -5,8 +5,8 @@
     "dev": "remix dev",
     "start": "remix-serve build",
     "typecheck": "tsc",
-    "build": "remix build && npm run build:worker",
-    "build:worker": "wrangler generate worker && mv worker/worker.js worker/index.js"
+    "build:remix": "remix build",
+    "build:worker": "wrangler generate worker && mv worker.js worker/"
   },
   "dependencies": {
     "@remix-run/css-bundle": "^1.17.0",
