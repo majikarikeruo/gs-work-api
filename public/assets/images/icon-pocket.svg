@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="79" height="38" viewBox="0 0 79 38">
+  <defs>
+    <filter id="長方形_18" x="0" y="0" width="79" height="38" filterUnits="userSpaceOnUse">
+      <feOffset dy="1" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="1" result="blur"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <pattern id="pattern" preserveAspectRatio="none" width="100%" height="100%" viewBox="0 0 100 100">
+      <image width="100" height="100" xlink:href="data:image/png;base64,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"/>
+    </pattern>
+  </defs>
+  <g id="グループ_7" data-name="グループ 7" transform="translate(2.88 2)">
+    <g transform="matrix(1, 0, 0, 1, -2.88, -2)" filter="url(#長方形_18)">
+      <rect id="長方形_18-2" data-name="長方形 18" width="73" height="32" rx="4" transform="translate(3 2)" fill="#f03e51"/>
+    </g>
+    <rect id="icon-pocket" width="27" height="27" rx="11" transform="translate(23.12 3)" fill="url(#pattern)"/>
+  </g>
+</svg>

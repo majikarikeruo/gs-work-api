@@ -1,0 +1,10 @@
+// Stick this at the bottom of that file:
+
+model Post {
+  slug     String @id
+  title    String
+  markdown String
+
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+}

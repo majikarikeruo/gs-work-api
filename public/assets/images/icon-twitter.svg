@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="79" height="38" viewBox="0 0 79 38">
+  <defs>
+    <filter id="長方形_16" x="0" y="0" width="79" height="38" filterUnits="userSpaceOnUse">
+      <feOffset dy="1" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="1" result="blur"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <pattern id="pattern" preserveAspectRatio="none" width="100%" height="100%" viewBox="0 0 47 40">
+      <image width="47" height="40" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAC8AAAAoCAMAAABZ/FMmAAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAABvFBMVEUAAAD///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////8AAACqZs+GAAAAknRSTlMAHoTM+PrQiygWCAeM/pgNo27LDBDG1RwYYLrvEn23BsX1ZMiyogEb9rYKGvmdXrR/C88f9+DBBQnuVNsT8SH72r4ZvXGcPQI7EfTkk1g8d9G1MAMjsEDD8s7n3MCKMlKu7Lw3aCbSDgRhmXam/CRLoCAndELYImn9T3N+eFltMetJWntwle246d1XsUV88OKeOS+PRJkAAAABYktHRACIBR1IAAAACXBIWXMAAAsSAAALEgHS3X78AAAB00lEQVQ4y43V5V/CQBgH8BNEEcVEUUQRA7AxsQOxC8XAbsVuxUZE7Lq/2G0w2Lhb/F7sw93zZTxwtwMAnkRJpNFQFhMrpyfiqKsCr+MTZDAQZWISOSFPTqHukpqG46p0GE6GOjNLo8zWkoUcmKtDuS4PMqMnL/lUpQDCQvQNEoikyACMRMVEvCwuieClZQgvN1ZUmgGoogbVNWxvRnhtHYT1FgAaAsPGJpaXQkyaW8hSa3BU2RbmlnYM71BTtU56bEqwhtrH8C5toGYLT8m6e3qpOTXG9wXv1T/AnB0cGo4illyJ+hH6w0cjK432sWjUj9Pe0QnFZCL41SantNNifHBJ4yF0zojgs3Q7c6K6gfO0TxTnF2i/KM4vhRZ/WQxvV4V85ooIv8rYjGutwn6duXs3NoW4fou13V3bUn6/w+K7e+W5Tj6+f8Dyh0LtHLGfVoPABjIdRxwHJ7zdwFPkuDkz8XCpCz3PFs85efYFwERxacdz9xXgiPXaLbSyzOhuZBh+y6Fdd7gHx32PxYYHySCud89jpPQ++czPGj/+q75Y0TZsnLu/zmvA9aLKecXpNx/H/xrxw7x/1LKxf++xF/BF8fm1HOMhTs3vn4Jf35+Dy/0DMEd9zOe2bgIAAAAASUVORK5CYII="/>
+    </pattern>
+  </defs>
+  <g id="グループ_5" data-name="グループ 5" transform="translate(3 2)">
+    <g transform="matrix(1, 0, 0, 1, -3, -2)" filter="url(#長方形_16)">
+      <rect id="長方形_16-2" data-name="長方形 16" width="73" height="32" rx="4" transform="translate(3 2)" fill="#00acee"/>
+    </g>
+    <rect id="icon-twitter" width="16" height="13" transform="translate(29 10)" fill="url(#pattern)"/>
+  </g>
+</svg>
