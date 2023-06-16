@@ -1,8 +1,13 @@
 # wrangler.toml
 name = "gs-work-api"
-type = "webpack"
+type = "javascript"
 account_id = "b2808a270d96e4ffd3b1d90e449b5fa7"
+route = ""
 workers_dev = true
+
+[site]
+bucket = "./public"
+entry-point = "."
 
 
 [build]
