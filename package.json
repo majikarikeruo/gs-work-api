@@ -3,10 +3,9 @@
   "sideEffects": false,
   "scripts": {
     "dev": "remix dev",
+    "build": "remix build && wrangler publish",
     "start": "remix-serve build",
-    "typecheck": "tsc",
-    "build": "remix build && npm run build:worker",
-    "build:worker": "wrangler generate worker && mv worker.js worker/"
+    "typecheck": "tsc"
   },
   "dependencies": {
     "@remix-run/css-bundle": "^1.17.0",
