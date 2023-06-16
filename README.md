@@ -1,53 +1,26 @@
-# Welcome to Remix!
+# ここにタイトルを入れる
 
-- [Remix Docs](https://remix.run/docs)
+## DEMO
 
-## Development
+- デプロイしている場合は URL を記入（任意）
 
-From your terminal:
+## 紹介と使い方
 
-```sh
-npm run dev
-```
+- どんなプロダクトなのか，どのように操作するのか
+  今回は WordPress REST API×Remix で
+  自分のブログ Arrown をリプレイスする演習をしてみました。
+  とはいえ、一覧と詳細作った程度なので、また明日までに至っていないところは
+  ブラッシュアップしていきたいと思います。
 
-This starts your app in development mode, rebuilding assets on file changes.
+## 工夫した点
 
-## Deployment
+- ずっと Next.js ばっかり使っていたので、Remix に初めて手を出してみました。
+- チュートリアルからやってみて時間を要しましたが、使いやすいなと感じました。
 
-First, build your app for production:
+## 苦戦した点
 
-```sh
-npm run build
-```
+- 単純に時間配分と、何作るか決めてたはずなのに先週の課題のブラッシュアップに夢中になって迷いが生じてしまったので、スタートが遅くなったことが悔やまれます。
 
-Then run the app in production mode:
+## 参考にした web サイトなど
 
-```sh
-npm start
-```
-
-Now you'll need to pick a host to deploy it to.
-
-### DIY
-
-If you're familiar with deploying node applications, the built-in Remix app server is production-ready.
-
-Make sure to deploy the output of `remix build`
-
-- `build/`
-- `public/build/`
-
-### Using a Template
-
-When you ran `npx create-remix@latest` there were a few choices for hosting. You can run that again to create a new project, then copy over your `app/` folder to the new project that's pre-configured for your target server.
-
-```sh
-cd ..
-# create a new project, and pick a pre-configured host
-npx create-remix@latest
-cd my-new-remix-app
-# remove the new project's app (not the old one!)
-rm -rf app
-# copy your app over
-cp -R ../my-old-remix-app/app app
-```
+[ - 後で見返せるように](https://remix.run/docs/en/1.17.0)
