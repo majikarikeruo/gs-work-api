@@ -43,7 +43,7 @@ const Header = () => {
       en: "useful",
     },
   ];
-  console.log(categories);
+  // console.log(categories);
 
   return (
     <header className="header py-8 mb-8">

@@ -4,7 +4,7 @@ import { useLoaderData } from "@remix-run/react";
 export const loader = async ({ params }) => {
   const res = await fetch(`https://arrown-blog.com/wp-json/wp/v2/categories`);
   const data = await res.json();
-  console.log(res, 111111);
+  // console.log(res, 111111);
 
   if (res) {
     return json(data);

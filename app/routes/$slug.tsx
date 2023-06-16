@@ -10,7 +10,7 @@ export const loader = async ({ params }) => {
     `https://arrown-blog.com/wp-json/wp/v2/posts/?slug=${params.slug}&_embed`
   );
   const data = await res.json();
-  console.log(data);
+  // console.log(data);
   if (res) {
     return json(data);
   } else {
